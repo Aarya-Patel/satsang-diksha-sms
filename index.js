@@ -14,7 +14,7 @@ mongoose
   .then(() => console.log("Connected to MongoDB Cluster"));
 
 // Start the recurring job
-// job.start();
+job.start();
 
 // phoneNumbers.create({ phoneNumber: 6475695400 });
 // Express app

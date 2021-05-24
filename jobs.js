@@ -9,7 +9,7 @@ const vonage = new Vonage({
   apiSecret: process.env.API_SECRET,
 });
 
-exports.job = new CronJob("*/1 * * * *", function () {
+exports.job = new CronJob("* 8 */1 * *", function () {
   const index = Math.floor(Math.random() * (shloks.length - 1 + 0));
   console.log(shloks[index]);
 
