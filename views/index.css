@@ -8,24 +8,24 @@
 }
 
 body {
-  font-family: "Poppins", sans-serif;
+  font-family: "Inter", sans-serif;
   margin: 2em 18em;
+  background-color: #8f665e;
+  color: white;
 }
 
 .form-container {
-  margin: 1em;
-  /* padding: 1em 2em; */
+  margin: 1em 0em;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  border-radius: 5px;
+  border-radius: 1em;
+  border: 1px solid #855f58;
+  background-color: #855f58;
 }
 
 .container {
   display: flex;
   flex-direction: column;
-  align-items: center;
 }
 
 h2 {
@@ -35,45 +35,53 @@ h2 {
 
 h4 {
   text-transform: uppercase;
-  letter-spacing: 0.5em;
 }
 
 input {
   background-color: transparent;
   font-size: inherit;
-  padding: 0.15em 5px;
+  padding: 0.5em 1em;
   border: none;
-  border-bottom: 1px solid black;
-  margin-left: 1em;
+  border: 1px solid rgb(244, 244, 244);
+  margin: 1em;
+  border-radius: 5px;
+  color: inherit;
+  width: 50%;
 }
 
 form {
   display: flex;
-  flex-direction: column;
-  justify-content: center;
+  flex-direction: row;
+  justify-content: space-between;
   align-items: center;
 }
 
-p {
-  margin-bottom: 1em;
-  width: 100%;
-  text-align: center;
+.form-title {
+  margin: 1em;
+  font: inherit;
+  font-weight: bold;
+  font-size: 1rem;
+  /* text-align: center; */
 }
 
 button {
-  margin-top: 1.5em;
+  margin-right: 1em;
   font-family: inherit;
   font-size: 1rem;
   padding: 0.5em 1em;
-  background-color: lightblue;
+  color: inherit;
+  background-color: #543433;
   border: none;
   border-radius: 5px;
+  justify-self: flex-end;
 }
 
 .success {
+  margin: 1em;
   color: green;
 }
 
 .error {
+  margin: 1em;
   color: red;
 }
